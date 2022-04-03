@@ -6,13 +6,10 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
-import sys
+
 import fire
-import questionary
-from pathlib import Path
-
-from qualifier.utils.fileio import load_csv
-
+from qualifier.utils.get_applicant_info import get_applicant_info
+from qualifier.utils.fileio import save_csv, load_bank_data, load_csv
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
@@ -24,41 +21,42 @@ from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 
 
-def load_bank_data():
-    """Ask for the file path to the latest banking data and load the CSV file.
+# Moved this function to fileio for redundancy
+# def load_bank_data():
+#     """Ask for the file path to the latest banking data and load the CSV file.
 
-    Returns:
-        The bank data from the data rate sheet CSV file.
-    """
+#     Returns:
+#         The bank data from the data rate sheet CSV file.
+#     """
 
-    csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
-    csvpath = Path(csvpath)
-    if not csvpath.exists():
-        sys.exit(f"Oops! Can't find this path: {csvpath}")
+#     csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
+#     csvpath = Path(csvpath)
+#     if not csvpath.exists():
+#         sys.exit(f"Oops! Can't find this path: {csvpath}")
 
-    return load_csv(csvpath)
+#     return load_csv(csvpath)
 
+# moved function to its own python file for redundancy and modularization
+# def get_applicant_info():
+#     """Prompt dialog to get the applicant's financial information.
 
-def get_applicant_info():
-    """Prompt dialog to get the applicant's financial information.
+#     Returns:
+#         Returns the applicant's financial information.
+#     """
 
-    Returns:
-        Returns the applicant's financial information.
-    """
+#     credit_score = questionary.text("What's your credit score?").ask()
+#     debt = questionary.text("What's your current amount of monthly debt?").ask()
+#     income = questionary.text("What's your total monthly income?").ask()
+#     loan_amount = questionary.text("What's your desired loan amount?").ask()
+#     home_value = questionary.text("What's your home value?").ask()
 
-    credit_score = questionary.text("What's your credit score?").ask()
-    debt = questionary.text("What's your current amount of monthly debt?").ask()
-    income = questionary.text("What's your total monthly income?").ask()
-    loan_amount = questionary.text("What's your desired loan amount?").ask()
-    home_value = questionary.text("What's your home value?").ask()
+#     credit_score = int(credit_score)
+#     debt = float(debt)
+#     income = float(income)
+#     loan_amount = float(loan_amount)
+#     home_value = float(home_value)
 
-    credit_score = int(credit_score)
-    debt = float(debt)
-    income = float(income)
-    loan_amount = float(loan_amount)
-    home_value = float(home_value)
-
-    return credit_score, debt, income, loan_amount, home_value
+#     return credit_score, debt, income, loan_amount, home_value
 
 
 def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_value):
@@ -102,14 +100,20 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     return bank_data_filtered
 
 
+
+
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
+    # save_csv function contained in fileio.py in utils folder
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+    
+
+    save_csv(qualifying_loans)
 
 
 def run():
