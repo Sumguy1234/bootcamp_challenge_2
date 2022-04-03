@@ -29,6 +29,12 @@
 
 # screenshot walkthrough:
 
+![alt text](https://github.com/Sumguy1234/bootcamp_challenge_2/blob/main/usage_screenshots/running_app.PNG "Run app in git bash")
+
+![alt text](https://github.com/Sumguy1234/bootcamp_challenge_2/blob/main/usage_screenshots/entered_data.PNG "Follow prompts to enter data")
+
+![alt text](https://github.com/Sumguy1234/bootcamp_challenge_2/blob/main/usage_screenshots/confirm_save_and_file_naming_example.PNG "Choose to save/not save loan data and enter path")
+
 
 
 ---
