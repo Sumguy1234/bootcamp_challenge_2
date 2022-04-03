@@ -1,46 +1,55 @@
 # loan_qualifier_challenge_2
-# this project is a program meant to analyze a users qualifying loan information and cross check it with a list of bank loan acceptance information.
-# The main addition to the project will be prompting the user to save loans they qualify for as a CSV file
-# It is good practice in exercizing the use of CLI, testing, and interacting with CSV files
+# this project is a program meant to analyze a user inputted loan information and cross check it with a list of bank loan acceptance information.
+# The main addition to the project is functions prompting the user to save loans they qualify for as a CSV file as well as removal of redundancies.
+# User may load a list of bank data, input their credit/income/loan information, and save a list of loans they qualify for as a csv in a custom directory.
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
 
 ---
 
 ## Technologies
 
-## Python, questionary, fire, path, modular program built using VSCode and git on windows 10
+# Python 3.7.11, questionary 1.10.0, fire 0.4.0, path, modular program built using VSCode and git on windows 10
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+
 
 ---
 
 ## Installation Guide
 
-## pip install questionary
-## pip install fire
+# In gitbash ensure you have questioniary and fire installed by using the following commands:
 
-
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+# pip install questionary
+# pip install fire
 
 ---
 
 ## Usage
 
-## simply run app.py and follow the prompts to execute the program features
+# simply run app.py using git bash in your directory by typing 'python app.py' and follow the CLI prompts to execute the program features
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+# screenshot walkthrough:
+
+
 
 ---
 
 ## Contributors
 
-## Original project files provided by UC Berkley Extension with uprades created by John Matysek - linkedin.com/in/johnmatysek - johnmatysek@yahoo.com
+# Original project files provided by UC Berkley Extension with uprades created by John Matysek - linkedin.com/in/johnmatysek - johnmatysek@yahoo.com
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# See <http://www.gnu.org/licenses/>.
