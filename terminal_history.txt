@@ -1,0 +1,56 @@
+  430  git status
+  431  git add README.md
+  432  git status
+  433  git commit -m "Test 2nd commit, no changes other than added readme edits"
+  434  git status
+  435  git push
+  436  python app.py 
+  437  python app.py 
+  438  python app.py 
+  439  python app.py 
+  440  python app.py 
+  441  python app.py 
+  442  python app.py 
+  443  python app.py 
+  444  python app.py 
+  445  conda activate dev
+  446  python app.py 
+  447  python app.py 
+  448  git status
+  449  git add qualifier/utils/get_applicant_info.py 
+  450  git status
+  451  git add app.py
+  452  git add qualifier/utils/fileio.py 
+  453  git status
+  454  git commit -m "Updated app.py according to project constraints. Moved get_applicant_info function out of app.py to its own module for redundancy. Moved load_bank_data function from app.py to fileio.py for redundancy of imports. Added comments for Dev on a few functions that were customized due to the specific project constraints so dev will know to look for these @DEV comments in case reusing code for other purposes. Left moved functions in app.py  but commented out so that grader sees where they were moved to and why.
+
+commit
+exit
+exti()
+exit()
+
+  455  git commit -m "updated app.py according to project constraints. Moved get_applicant_info function out of app.py to its own module for redundancy. Moved load_bank_data function from ap.py to fileio.py for redundancy of imports. Added comments @DEV on a few functions customized within modules so dev will know to look for these in case recycling code in the future. Left moved functions in app.py as comments so grader sees where they were moved and why."
+  456  python -version
+  457  python -h
+  458  python --version
+  459  pip install questionary
+  460  pip install fire
+  461  clear
+  462  python app.py
+  463  git status
+  464  git add README.md
+  465  git status
+  466  git add usage_screenshots
+  467  git commit -m "updated README and included screenshots in repo for README usage guide."
+  468  git status
+  469  git status
+  470  git push
+  471  git status
+  472  git add README.md
+  473  git commit -m "added screenshots to README"
+  474  git push
+  475  git add README.md
+  476  git status
+  477  git commit -m "updated README formatting"
+  478  git push
+  479  history 50 > terminal_history.txt
