@@ -1,3 +1,348 @@
+   85  cd desktop
+   86  cd test
+   87  python3 -m venv tutorial-env
+   88  python3
+   89  exit
+   90  cd bootcamp
+   91  cd class activities
+   92  cd class_activities
+   93  exit
+   94  python variables.py
+   95  conda activate dev
+   96  conda info --envs
+   97  conda --version
+   98  conda create -n dev python = 3.7 anaconda
+   99  conda create -n dev python=3.7 anaconda
+  100  conda activate dev
+  101  python variables.py
+  102  exit
+  103  conda activate env
+  104  conda info --envs
+  105  conda activate dev
+  106  python lists.py
+  107  cd ..
+  108  cd Solved/
+  109  cd ..
+  110  cd ..
+  111  cd 03_Ins_Lists/solved
+  112  python lists.py
+  113  python lists.py
+  114  python lists.py
+  115  python lists.py
+  116  python lists.py
+  117  exit
+  118  python dicts.py
+  119  exit
+  120  conda activate dev
+  121  python hello_python_Module_1_Code.py 
+  122  python hello_python_Module_1_Code.py 
+  123  python hello_python_Module_1_Code.py 
+  124  exit
+  125  conda activate dev
+  126  python hello_variable_world.py 
+  127  python hello_variable_world.py 
+  128  python hello_variable_world.py 
+  129  python hello_variable_world.py 
+  130  python hello_variable_world.py 
+  131  exit
+  132  conda activate dev
+  133  python listing_assets.py 
+  134  exit
+  135  conda activate dev
+  136  ls
+  137  cd unsolved
+  138  python the_401k_shuffle.py 
+  139  python the_401k_shuffle.py 
+  140  python the_401k_shuffle.py 
+  141  python the_401k_shuffle.py 
+  142  python the_401k_shuffle.py 
+  143  exit
+  144  conda activate dev
+  145  python PracticeBooleanLogic.py 
+  146  python PracticeBooleanLogic.py 
+  147  python PracticeBooleanLogic.py 
+  148  exit
+  149  conda activate dev
+  150  cd unsolved
+  151  python conditional_statement.py 
+  152  python conditional_statement.py 
+  153  exit
+  154  conda activate dev
+  155  python nested_conditionals.py 
+  156  exit
+  157  conda activate dev
+  158  python 
+  159  cd unsolved
+  160  python split_second_homebuying.py 
+  161  python split_second_homebuying.py 
+  162  python split_second_homebuying.py 
+  163  python split_second_homebuying.py 
+  164  exit
+  165  cd unsolved
+  166  conda activate dev
+  167  python a_definitive_buy.py 
+  168  exit
+  169  python returned_goods.py 
+  170  exit
+  171  python split_second_part_2.py 
+  172  python split_second_part_2.py 
+  173  python split_second_part_2.py 
+  174  python split_second_part_2.py 
+  175  pythono split_second_part_2.py 
+  176  python split_second_part_2.py 
+  177  exit
+  178  python racking_up_the_profit.py 
+  179  exit
+  180  python 
+  181  ls
+  182  python pathways_to_success.py 
+  183  python pathways_to_success.py 
+  184  python pathways_to_success.py 
+  185  path pathways_to_success.py 
+  186  python pathways_to_success.py 
+  187  python pathways_to_success.py 
+  188  python pathways_to_success.py 
+  189  cd ...
+  190  cd .
+  191  cd .
+  192  cd .
+  193  cd ..
+  194  cd ..
+  195  cd ..
+  196  cd ..
+  197  python Untitled-1.py 
+  198  python Untitled-1.py 
+  199  python Untitled-1.py 
+  200  python Untitled-1.py 
+  201  python Untitled-1.py 
+  202  exit
+  203  python loan_analyzer.py 
+  204  python loan_costs = [500, 600, 200, 1000, 450]
+  205  # How many loans are in the list?
+  206  # @TODO: Use the `len` function to calculate the total number of loans in the list.
+  207  # Print the number of loans from the list
+  208  # YOUR CODE HERE!
+  209  number_of_loans = loan_costs.__len__
+  210  total_all_loans = sum(loan_costs)
+  211  print(number_of_loans)python loan_costs = [500, 600, 200, 1000, 450]
+  212  # How many loans are in the list?
+  213  # @TODO: Use the `len` function to calculate the total number of loans in the list.
+  214  # Print the number of loans from the list
+  215  # YOUR CODE HERE!
+  216  number_of_loans = len(loan_costs)
+  217  total_all_loans = sum(loan_costs)
+  218  average_loan_price = total_all_loans/number_of_loans
+  219  print(f"There are {number_of_loans} loans.")
+  220  print(f"The total value of all loans is {total_all_loans}.")
+  221  python
+  222  python loan_analyzer.py 
+  223  python loan_analyzer.py 
+  224  python loan_analyzer.py 
+  225  python loan_analyzer.py 
+  226  PYTHON loan_analyzer.py 
+  227  python loan_analyzer.py 
+  228  python loan_analyzer.py 
+  229  python loan_analyzer.py 
+  230  python loan_analyzer.py 
+  231  python loan_analyzer.py 
+  232  python loan_analyzer.py 
+  233  python loan_analyzer.py 
+  234  python loan_analyzer.py 
+  235  python loan_analyzer.py 
+  236  python loan_analyzer.py 
+  237  python python loan_analyzer.py 
+  238  python loan_analyzer.py 
+  239  python loan_analyzer.py 
+  240  python loan_analyzer.py 
+  241  python loan_analyzer.py 
+  242  python loan_analyzer.py 
+  243  python loan_analyzer.py 
+  244  python loan_analyzer.py 
+  245  print loan_analyzer.py 
+  246  python loan_analyzer.py 
+  247  exit
+  248  conda activate dev
+  249  pip -V
+  250  pip freeze
+  251  pip install fire
+  252  pip install questionary
+  253  exit
+  254  python app.py 
+  255  python app.py 
+  256  python app.py 
+  257  python app.py 
+  258  python app.py 
+  259  python app.py 
+  260  python app.py 
+  261  cd ..
+  262  cd .
+  263  cd .
+  264  cd ..
+  265  cd ..
+  266  cd ls
+  267  ls
+  268  cd 02_Loan_Qualifier_Filtering_Data
+  269  cd  02_Loan_Qualifier_Filtering_Data/
+  270  cd Unsolved
+  271  python app.py 
+  272  python app.py 
+  273  run app.py 
+  274  python app.py 
+  275  cd ..
+  276  cd solved
+  277  run app.py 
+  278  python app.py 
+  279  cd ..
+  280  cd unsolved
+  281  python app.py 
+  282  python app.py 
+  283  python app.py 
+  284  exit
+  285  python dicts-02.py 
+  286  python dicts-02.py 
+  287  python dicts-02.py 
+  288  python dicts-02.py 
+  289  python dicts-02.py 
+  290  python dicts-02.py 
+  291  python dicts-02.py 
+  292  python dicts-02.py 
+  293  python dicts-02.py 
+  294  python d
+  295  python dicts-02.py 
+  296  python dicts-02.py 
+  297  python dicts-02.py 
+  298  python dicts-02.py 
+  299  python dicts-02.py 
+  300  python dicts-02.py 
+  301  python dicts-02.py 
+  302  pyton dicts-02.py 
+  303  python dicts-02.py 
+  304  python dicts-02.py 
+  305  python dicts-02.py 
+  306  python dicts-02.py 
+  307  python dicts-02.py 
+  308  python dicts-02.py 
+  309  python dicts-02.py 
+  310  python dicts-02.py 
+  311  python dicts-02.py 
+  312  python dicts-02.py 
+  313  python dicts-02.py 
+  314  python dicts-02.py 
+  315  python dicts-02.py 
+  316  python dicts-02.py 
+  317  python dicts-02.py 
+  318  python dicts-02.py 
+  319  exit
+  320  python loops-01.py 
+  321  python loops-01.py 
+  322  python loops-01.py 
+  323  exit
+  324  pip install fire
+  325  exit
+  326  pip install fire
+  327  exit
+  328  import fire
+  329  python import fire
+  330  python
+  331  exit
+  332  python
+  333  exit
+  334  python cli.py 
+  335  python cli.py 
+  336  python cli.py 
+  337  pip install fire
+  338  python cli.py 
+  339  python cli.py --pants=True
+  340  exit
+  341  python app.py --credit_score = 750
+  342  python app.py --credit_score=500
+  343  python app.py --credit_score=0
+  344  python app.py --credit_score=5
+  345  python app.py --credit_score=750
+  346  python app.py --credit_score=500
+  347  python app.py --credit_score=750 --debt=5000 --income=60000
+  348  pip install questionary
+  349  cd ..
+  350  cd ..
+  351  cd ..
+  352  cd ls
+  353  ls
+  354  cd Questionary\ Practice/
+  355  python dialog.py 
+  356  python dialog.py 
+  357  python dialog.py 
+  358  python dialog.py 
+  359  exit
+  360  python app.py 
+  361  python app.py --credit_score = 750 --income = 60000 --debt = 5000
+  362  python app.py python app.py --credit_score=750 --debt=5000 --income=20000
+  363  python app.py --credit_score=750 --debt=5000 --income=20000
+  364  ext
+  365  exit
+  366  python app.py --credit_score=750 --debt=5000 --income=20000
+  367  cd unsolved
+  368  python app.py --credit_score=750 --debt=5000 --income=20000
+  369  python app.py --credit_score=750 --debt=5000 --income=20000
+  370  python app.py --credit_score=750 --debt=5000 --income=20000
+  371  python app.py --credit_score=750 --debt=5000 --income=20000
+  372  python app.py --credit_score=750 --debt=5000 --income=20000
+  373  python app.py 
+  374  python app.py 
+  375  exit
+  376  git config --global user.name john matysek
+  377  git config --global user.email sumguy12345678910@gmail.com
+  378  git config --list
+  379  cd bootcamp
+  380  cd Bootcamp
+  381  cd ls
+  382  ls
+  383  cd boot\ /camp
+  384  cd BootCamp
+  385  cd desktop
+  386  cd BootCamp
+  387  ls
+  388  cd Module 2 Activities
+  389  cd 'Module 2 Activities'
+  390  ls
+  391  mkdir Git_Repos
+  392  cd Git_Repos
+  393  mkdir Module_2_Test_Repo
+  394  cd Module_2_Test_Repo/
+  395  git clone https://github.com/Sumguy1234/Test2.git
+  396  ls
+  397  cd Test2/
+  398  ls
+  399  pwd
+  400  git status
+  401  git status
+  402  git add README.md
+  403  git status
+  404  touch Test_File.txt
+  405  ls
+  406  git status
+  407  git add Test_File.txt 
+  408  git status
+  409  git commit -m "Adding Test_file and README edits"
+  410  git status
+  411  git push
+  412  exit
+  413  git status
+  414  git config --list
+  415  git clone https://github.com/Sumguy1234/bootcamp_challenge_2.git
+  416  git status
+  417  ls
+  418  git status
+  419  cd bootcamp_challenge_2
+  420  git status
+  421  it add app.py
+  422  git add app.py
+  423  git add data/
+  424  git add qualifier/
+  425  git status
+  426  git commit README.md
+  427  git commit -m "Updated README with important information and added original unedited project files which were created in prior activities"
+  428  git status
+  429  git add readme.md
   430  git status
   431  git add README.md
   432  git status
@@ -54,3 +399,8 @@ exit()
   477  git commit -m "updated README formatting"
   478  git push
   479  history 50 > terminal_history.txt
+  480  git status
+  481  git add terminal_history.txt
+  482  git commit -m "Added terminal_history.txt file"
+  483  git push
+  484  history 400 > terminal_history.txt
