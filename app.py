@@ -7,9 +7,10 @@ Example:
     $ python app.py
 """
 
+from logging.handlers import QueueListener
 import fire
 from qualifier.utils.get_applicant_info import get_applicant_info
-from qualifier.utils.fileio import save_csv, load_bank_data, load_csv
+from qualifier.utils.fileio import save_csv, load_bank_data
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
@@ -112,8 +113,10 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
     
-
-    save_csv(qualifying_loans)
+    if len(qualifying_loans) == 0:
+        print("No qualifying loans, exiting program.")
+    else:
+        save_csv(qualifying_loans)
 
 
 def run():
